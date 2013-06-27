@@ -4,7 +4,8 @@
 
 function DocListCtrl($scope, Docs) {
 
-
+	 $scope.docs = Docs.query();
+	  
 
 
 }
@@ -13,7 +14,7 @@ function DocListCtrl($scope, Docs) {
 
 
 
-function DocPreviewCtrl($scope, $routeParams, Doc) {
+function DocPreviewCtrl($scope, $routeParams, Docs) {
 //  $scope.phone = Phone.get({phoneId: $routeParams.docId}, function(phone) {
 //    $scope.mainImageUrl = phone.images[0];
 //  });

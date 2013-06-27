@@ -20,9 +20,9 @@
 			<ul class="phones">
 				<li ng-repeat="doc in docs | filter:query | orderBy:orderProp" class="thumbnail">
 					<!-- <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a> -->
-					<a href="#/preview/{{doc.id}}">{{doc.name}}</a>
+					<a href="#/preview/{{doc.id}}">{{doc.docName}}</a>
 					<p>
-						{{doc.snippet}}
+						{{doc.docHighlight}}
 					</p>
 				</li>
 			</ul>

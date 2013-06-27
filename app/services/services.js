@@ -3,8 +3,16 @@
 /* Services */
 
 angular.module('searchDocsServices', ['ngResource']).
-    factory('Docs', function($resource){
-  return $resource('data/:DocId.json', {}, {
-    query: {method:'GET', params:{docId:'docs'}, isArray:true}
-  });
+    factory('Docs', function($ttp){
+    	
+    	$http({method: 'GET', url: 'http://192.168.112.216:8001/docs'}).
+    	success(function(data, status, headers, config) {
+    	  return data;
+    	}).
+    	error(function(data, status, headers, config) {
+    	  // called asynchronously if an error occurs
+    	  // or server returns response with an error status.
+    	});
+
 });
+
