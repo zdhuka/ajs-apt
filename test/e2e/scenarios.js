@@ -6,7 +6,7 @@ describe(
 
 			it('should open index.html', function() {
 				
-				expect(browser().location().url()).toBe('/index.html');
+				expect(browser().location().url()).toBe('/index');
 			});
 
 			describe(
@@ -20,11 +20,11 @@ describe(
 						it('should filter the Data Details as user types into the search box',
 								function() {
 									expect(repeater('.filelist li').count())
-											.toBe(9);
+											.toBe(5);
 
-									input('query').enter('News');
+									input('query').enter('abc');
 									expect(repeater('.filelist li').count())
-											.toBe(1); 
+											.toBe(2); 
 								});
 
 						it('should be possible to control Data order via the drop down select box',
@@ -33,47 +33,38 @@ describe(
 									expect(
 											repeater('.filelist li',
 													'File List').column(
-													'document.documentName'))
-											.toEqual([ "abc.txt" ]);
+													'document.docname'))
+											.toEqual([ "abc.txt","abcdef.txt" ]);
 
 									select('orderProp')
 											.option('Document Title');
-									/* Confusion with File List */
+									
 									expect(
 											repeater('.filelist li',
 													'File List').column(
-													'document.documentName'))
-											.toEqual([ "Politics.txt" ]);
+													'document.docname'))
+											.toEqual([ "abc.txt","abcdef.txt" ]);
 								});
 
 						it('should display Search details on the Right Pannel',
 								function() {
-									input('query').enter('Sports');
+									input('query').enter('ghi');
 									element('.filelist li a').click();
 									expect(
-											element('iframe.filePreview').attr(
+											element('iframe').attr(
 													'src')).toBe(
-											'data/Sports.txt');
+											'http://192.168.112.216:8001/data/ghi.txt');
 								});
 
-						it('should display Search details on the Right Pannel',
+						it('should display the selected file on the preview panel',
 								function() {
-									input('query').enter('News');
+									input('query').enter('abcdef');
 									element('.filelist li a').click();
 									expect(
-											element('iframe.filePreview').attr(
+											element('iframe').attr(
 													'src')).toBe(
-											'data/News.txt');
+											'http://192.168.112.216:8001/data/abcdef.txt');
 								});
-						it('should display ShareMarket details on the Right Pannelwhen it is selected',
-								function() {
-									input('query').enter('ShareMarket');
-									element('.filelist li a').click();
-									expect(
-											element('iframe.filePreview').attr(
-													'src')).toBe(
-											'data/ShareMarket.txt');
-								});
-
+						
 					});
 		});
