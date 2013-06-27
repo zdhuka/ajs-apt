@@ -24,22 +24,22 @@ describe('aptara controllers', function() {
 //          respond([{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
 
       scope = $rootScope.$new();
-      ctrl = $controller(PhoneListCtrl, {$scope: scope});
+      ctrl = $controller(Dashboard, {$scope: scope});
     }));
 
 
-    it('should create "phones" model with 2 phones fetched from xhr', function() {
-      expect(scope.phones).toEqual([]);
-      $httpBackend.flush();
-
-      expect(scope.phones).toEqualData(
-          [{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
-    });
-
-
-    it('should set the default value of orderProp model', function() {
-      expect(scope.orderProp).toBe('age');
-    });
+//    it('should create "phones" model with 2 phones fetched from xhr', function() {
+//      expect(scope.phones).toEqual([]);
+//      $httpBackend.flush();
+//
+//      expect(scope.phones).toEqualData(
+//          [{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
+//    });
+//
+//
+//    it('should set the default value of orderProp model', function() {
+//      expect(scope.orderProp).toBe('age');
+//    });
   });
 
 

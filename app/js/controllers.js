@@ -23,11 +23,9 @@
 //}
 //
 ////PhoneDetailCtrl.$inject = ['$scope', '$routeParams', 'Phone'];
-
-function dashboard($scope, Components) {
-//	$scope.phones = Phone.query();
-//	$scope.tablets = "samsung";
-//	$scope.orderProp = 'age';
+'use strict';
+function DashboardCtrl($scope) {
+	$scope.title="hello";
 }
 
-Dashboard.$inject = [ '$scope', 'Components' ];
+//DashboardCtrl.$inject = ['$scope'];

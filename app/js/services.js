@@ -1,16 +1,16 @@
-//'use strict';
-//
-///* Services */
-//
-//angular.module('phonecatServices', [ 'ngResource' ]).factory('Phone',
-//		function($resource) {
-//			return $resource('phones/:phoneId.json', {}, {
-//				query : {
-//					method : 'GET',
-//					params : {
-//						phoneId : 'phones'
-//					},
-//					isArray : true
-//				}
-//			});
-//		});
+'use strict';
+
+/* Services */
+
+angular.module('aptaraServices', [ 'ngResource' ]).factory('Report',
+		function($resource) {
+			return $resource('data/:reportId.json', {}, {
+				query : {
+					method : 'GET',
+					params : {
+						reportId : 'report'
+					},
+					isArray : true
+				}
+			});
+		});
