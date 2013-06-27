@@ -1,25 +1,32 @@
 [
-{"documentId":101,"documentName":"News.txt","documentHighlight":"2012 Excellence in Social Learning — Bronze","docURL":"data/News.txt"},
-
-{"documentId":102,"documentName":"Reports.txt","documentHighlight":"Reports Are yet to be Prepared","docURL":"data/Reports.txt"},
-
-
-{"documentId":103,"documentName":"Sports.txt","documentHighlight":"India Won the champions trophy","docURL":"data/Sports.txt"},
-
-
-{"documentId":104,"documentName":"Politics.txt","documentHighlight":"LK Advani Resigns","docURL":"data/Politics.txt"},
-
-
-{"documentId":105,"documentName":"Data.txt","documentHighlight":"Reports are ready for the next review","docURL":"data/Data.txt"},
-
-
-{"documentId":106,"documentName":"ShareMarket.txt","documentHighlight":"Nfty Achives the new Level in the Market","docURL":"data/ShareMarket.txt"},
-
-
-{"documentId":107,"documentName":"Curicular.txt","documentHighlight":"Aptara organises the event for Freshers","docURL":"data/Curicular.txt"},
-
-
-{"documentId":108,"documentName":"Technology.txt","documentHighlight":"i9 processor launched by Intel","docURL":"data/Technology.txt"},
-
-
-{"documentId":109,"documentName":"Economics.txt","documentHighlight":"Dollars gains a new height","docURL":"data/Economics.txt"}]
+	{
+		"docid" : "1",
+		"docname" : "abc.txt",
+		"dochighlight" : "This is a sample highlight for abc.txt with document id equals 1.",
+		"docurl" : "http://Zoheb-PC:8001/data/abc.txt"
+	},
+	{
+		"docid" : "2",
+		"docname" : "def.txt",
+		"dochighlight" : "This is a sample highlight for def.txt with document id equals 2.",
+		"docurl" : "http://Zoheb-PC:8001/data/def.txt"
+	},
+	{
+		"docid" : "3",
+		"docname" : "ghi.txt",
+		"dochighlight" : "This is a sample highlight for ghi.txt with document id equals 3.",
+		"docurl" : "http://Zoheb-PC:8001/data/ghi.txt"
+	},
+	{
+		"docid" : "4",
+		"docname" : "jkl.txt",
+		"dochighlight" : "This is a sample highlight for jkl.txt with document id equals 4.",
+		"docurl" : "http://Zoheb-PC:8001/data/jkl.txt"
+	},
+	{
+		"docid" : "5",
+		"docname" : "abcdef.txt",
+		"dochighlight" : "This is a sample highlight for abcdef.txt with document id equals 5.",
+		"docurl" : "http://Zoheb-PC:8001/data/abcdef.txt"
+	}
+]
