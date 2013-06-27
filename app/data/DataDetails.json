@@ -1,25 +1,25 @@
 [
-{docId:101,docName:"News.txt",docHighlight:"2012 Excellence in Social Learning ï¿½ Bronze",docURL:"data/News.txt"},
+{"documentId":101,"documentName":"News.txt","documentHighlight":"2012 Excellence in Social Learning — Bronze","docURL":"data/News.txt"},
 
-{docId:102,docName:"Reports.txt",docHighlight:"Reports Are yet to be Prepared",docURL:"data/Reports.txt"},
-
-
-{docId:103,docName:"Sports.txt",docHighlight:"India Won the champions trophy",docURL:"data/Sports.txt"},
+{"documentId":102,"documentName":"Reports.txt","documentHighlight":"Reports Are yet to be Prepared","docURL":"data/Reports.txt"},
 
 
-{docId:104,docName:"Politics.txt",docHighlight:"LK Advani Resigns",docURL:"data/Politics.txt"},
+{"documentId":103,"documentName":"Sports.txt","documentHighlight":"India Won the champions trophy","docURL":"data/Sports.txt"},
 
 
-{docId:105,docName:"Data.txt",docHighlight:"Reports are ready for the next review",docURL:"data/Data.txt"},
+{"documentId":104,"documentName":"Politics.txt","documentHighlight":"LK Advani Resigns","docURL":"data/Politics.txt"},
 
 
-{docId:106,docName:"ShareMarket.txt",docHighlight:"Nfty Achives the new Level in the Market",docURL:"data/ShareMarket.txt"},
+{"documentId":105,"documentName":"Data.txt","documentHighlight":"Reports are ready for the next review","docURL":"data/Data.txt"},
 
 
-{docId:107,docName:"Curicular.txt",docHighlight:"Aptara organises the event for Freshers",docURL:"data/Curicular.txt"},
+{"documentId":106,"documentName":"ShareMarket.txt","documentHighlight":"Nfty Achives the new Level in the Market","docURL":"data/ShareMarket.txt"},
 
 
-{docId:108,docName:"Technology.txt",docHighlight:"i9 processor launched by Intel",docURL:"data/Technology.txt"},
+{"documentId":107,"documentName":"Curicular.txt","documentHighlight":"Aptara organises the event for Freshers","docURL":"data/Curicular.txt"},
 
 
-{docId:109,docName:"Economics.txt",docHighlight:"Dollars gains a new height",docURL:"data/Economics.txt"}]
+{"documentId":108,"documentName":"Technology.txt","documentHighlight":"i9 processor launched by Intel","docURL":"data/Technology.txt"},
+
+
+{"documentId":109,"documentName":"Economics.txt","documentHighlight":"Dollars gains a new height","docURL":"data/Economics.txt"}]

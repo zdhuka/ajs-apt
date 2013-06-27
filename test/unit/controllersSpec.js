@@ -1,7 +1,7 @@
 'use strict';
 
 /* jasmine specs for controllers go here */
-describe('searchDocs controllers', function() {
+describe('PhoneCat controllers', function() {
 
   beforeEach(function(){
     this.addMatchers({
@@ -12,10 +12,10 @@ describe('searchDocs controllers', function() {
   });
 
 
-  beforeEach(module('searchDocsServices'));
+  beforeEach(module('phonecatServices'));
 
 
-  describe('searchDocListCtrl', function(){
+  describe('PhoneListCtrl', function(){
     var scope, ctrl, $httpBackend;
 
     beforeEach(inject(function(_$httpBackend_, $rootScope, $controller) {
@@ -43,7 +43,7 @@ describe('searchDocs controllers', function() {
   });
 
 
-  describe('searchDocPreviewCtrl', function(){
+  describe('PhoneDetailCtrl', function(){
     var scope, $httpBackend, ctrl,
         xyzPhoneData = function() {
           return {
@@ -59,7 +59,7 @@ describe('searchDocs controllers', function() {
 
       $routeParams.phoneId = 'xyz';
       scope = $rootScope.$new();
-      ctrl = $controller(DocPreviewCtrl, {$scope: scope});
+      ctrl = $controller(PhoneDetailCtrl, {$scope: scope});
     }));
 
 
