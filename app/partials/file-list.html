@@ -14,7 +14,7 @@ Sort by:
 			<fieldset style="border:solid 1px black">
 				<ul class="filelist">
 					<li ng-repeat="document in documents | filter:query | orderBy:orderProp" >
-						<a style="cursor: hand;"ng-click="displayPreview(document.docname)"><h4>{{document.docname}}</h4></a>
+						<a style="cursor: pointer;"ng-click="displayPreview(document.docname)"><h4>{{document.docname}}</h4></a>
 						<br/>
 						<span>{{document.dochighlight}}</span>
 					</li>
