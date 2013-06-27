@@ -7,7 +7,7 @@ beforeEach(function(){
   });
 
 
-  beforeEach(module('searchServices'));
+  beforeEach(module('demoApp'));
   
 describe('FileListCtroller', function(){
    
@@ -17,7 +17,7 @@ describe('FileListCtroller', function(){
 		it('should fetch list of nine documents', function() {
 			var scope = {},
 			ctrl = new fileListController(scope); 
-			expect(scope.documents.length).toBe(9);
+			expect(scope.documents.length).toBe(5);
 		});
 	
 		/*Case for checking orderProp Value*/

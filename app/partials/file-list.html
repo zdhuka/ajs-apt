@@ -1,0 +1,33 @@
+Search:
+<input ng-model="query">
+Sort by:
+<select ng-model="orderProp">
+	<option value="docname">Document Title</option>
+	<option value="docid">Document Id</option>
+</select>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span2" style="width: 40%;">
+			<legend>
+				List of files
+			</legend>
+			<fieldset style="border:solid 1px black">
+				<ul class="filelist">
+					<li ng-repeat="document in documents | filter:query | orderBy:orderProp" >
+						<a style="cursor: hand;"ng-click="displayPreview($index)"><h4>{{document.docname}}</h4></a>
+						<br/>
+						<span>{{document.dochighlight}}</span>
+					</li>
+				</ul>
+		</div>
+		<div class="span10" style="width: 55%;">
+
+			<legend>
+				Detail view
+			</legend>
+			<iframe src={{previewUrl}} style="border: 1px solid black;width: 700px;
+			height: 500px;"></iframe>
+
+		</div>
+	</div>
+</div>
