@@ -7,10 +7,10 @@ beforeEach(function() {
 });
 
 describe('FileListCtroller', function($http) {
-	var scope, ctrl;
+	var scope,ctrl;
 
 	beforeEach(function() {
-		scope = {}, ctrl = new fileListController(scope, $http);
+		scope = {}, ctrl = new fileListController(scope,$http);
 	});
 	/* Case for checking the number of documents recieved */
 	it('should fetch list of five documents', function() {
