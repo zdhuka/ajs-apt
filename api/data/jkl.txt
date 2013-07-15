@@ -1,0 +1,25 @@
+This is a sample highlight for jkl.txt with document id equals 4.
+
+What Is Software Testing?
+In short, you can test software against a specification.
+Let’s say you’re writing a simple calculator that just does addition. Before you even start,
+think about how it should behave. It should be able to add positive integers. It should
+be able to add negative integers. It should be able to add decimal numbers, not just
+integers. You can think of many different ways that your calculator needs to work.
+Before you’ve written any of the code, you know how you want it to behave. You have
+a specification for its behavior.
+You can write these specifications in code. You’d say, “OK, it should work this way.” You’d
+make tests that added 1 and 1, 2 and 2, –1 and 5, –1.2 and 6.8, 0 and 0, and so on. When
+you run these tests, you’ll either get a success (it works according to the specification)
+or a failure (it doesn’t). If you ran all of your tests and saw success for each, then you
+can be pretty sure that your calculator works. If you ran these tests and saw some failures,
+then you know that your calculator doesn’t work.
+That’s software testing in a nutshell. You’re testing your code against a specification.
+There are many tools (Jasmine among them) that help you automate these software
+tests.
+It’s important to know that it’s difficult (and often impossible) to write tests for every
+case. In the calculator example, there are an infinite number of possible combinations.
+When testing, you should try to cover every reasonable case by testing a number of
+different groups (integers, negative numbers, mixes of the two, etc.). You should also
+identify boundary conditions (zeroes, for example) and edge cases, testing as many
+different scenarios as possible. 

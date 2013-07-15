@@ -1,0 +1,26 @@
+This is a sample highlight for abcdef.txt with document id equals 5.
+
+Preface
+All programmers want their code to work the way they intended. Jasmine, a popular
+testing framework for the JavaScript programming language, allows you to achieve that
+goal. Through coded specifications, Jasmine helps make your JavaScript work exactly
+how it’s supposed to. In this book, we’ll explore Jasmine in detail, from its basic concepts
+to its advanced features.
+This book aims to explain the concepts of testing and test-driven development, as well
+as why they’re useful. It then aims to dive into Jasmine and explain how it can help
+programmers test their JavaScript code. By the end of this book, I aim to give readers
+an understanding of Jasmine’s concepts and syntax.
+Who Should Read This Book
+This book is intended for programmers who are familiar with some more advanced
+JavaScript features, such as closures and callbacks, and who have a general understanding
+of JavaScript’s prototype system. If you are interested in learning how to write reliable
+JavaScript code, this is the book for you.
+Jasmine is useful when building a maintainable and scalable JavaScript application, either
+in a browser or on a server. It can help ensure that a browser’s client-side data
+models are performing properly, or that a server is correctly serving pages.
+Jasmine is also useful for building reliable JavaScript libraries. It can help ensure that
+the exposed API of your library matches what you intend it to match.
+Conventions Used in This Book
+The following typographical conventions are used in this book:
+Italic
+Indicates new terms, URLs, email addresses, filenames, and file extensions. 

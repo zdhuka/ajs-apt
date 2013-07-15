@@ -1,0 +1,69 @@
+This is a sample highlight for abc.txt with document id equals 1.
+
+Table of Contents
+Preface. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . v
+1. Intro to Testing. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+What Is Software Testing? 1
+Why Is It Useful? 2
+Test-Driven Development 2
+Behavior-Driven Development 2
+2. Jasmine. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+What Is Jasmine? 5
+Getting Set Up with Jasmine 5
+Testing Existing Code with describe, it, and expect 6
+An Example to Test 6
+Jasmine Time! 7
+Matchers 8
+Writing the Tests First with Test-Driven Development 9
+3. Writing Good Tests. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+Cardinal Rule: When in Doubt, Test 13
+Test Components 13
+Black-Box Testing 14
+4. Matchers in Depth. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Equality: toEqual 15
+Identity: toBe 15
+Yes or No? toBeTruthy, toBeFalsy 16
+Negate Other Matchers with not 17
+Check If an Element Is Present with toContain 17
+Is It Defined? toBeDefined, toBeUndefined 18
+iii
+www.it-ebooks.info
+Nullness: toBeNull 18
+Is It NaN? toBeNaN 18
+Comparators: toBeGreaterThan, toBeLessThan 19
+Nearness: toBeCloseTo 19
+Using toMatch with Regular Expressions 20
+Checking If a Function Throws an Error with toThrow 20
+Custom Matchers 20
+5. More Jasmine Features. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Before and After 23
+Nested Suites 24
+Skipping Specs and Suites 24
+Matching Class Names 25
+6. Spies. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+The Basics: Spying on a Function 27
+Calling Through: Making Your Spy Even Smarter 29
+Making Sure a Spy Returns a Specific Value 30
+Replacing a Function with a Completely Different Spy 30
+Creating a New Spy Function 30
+Creating a New Spy Object 31
+7. Using Jasmine with Other Tools. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+Jasmine and CoffeeScript 33
+Jasmine and Node.js 34
+Installing jasmine-node on Unix and Linux 34
+Installing jasmine-node on Windows 34
+Basic Usage 34
+Asynchronous Tests with jasmine-node 35
+jasmine-node and CoffeeScript 35
+Jasmine and Ruby on Rails 36
+Installation 36
+Usage 36
+Jasmine with Non-Rails Ruby 37
+More Tools 37
+8. Reference. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+Jasmine on the Web 39
+The Basic Structure of a Suite 39
+Matchers Reference 40
+List of Falsy Values 40
+Reserved Words in Jasmine 40
+iv | Table of Contents 
