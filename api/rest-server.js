@@ -3,31 +3,31 @@ docs = [
     		'docid' : '1',
     		'docname' : 'abc.txt',
     		'dochighlight' : 'This is a sample highlight for abc.txt with document id equals 1.',
-    		'docurl' : 'http://192.168.112.216:8001/data/abc.txt'
+    		'docurl' : 'http://127.0.0.1:8001/data/abc.txt'
     	},
     	{
     		'docid' : '2',
     		'docname' : 'def.txt',
     		'dochighlight' : 'This is a sample highlight for def.txt with document id equals 2.',
-    		'docurl' : 'http://192.168.112.216:8001/data/def.txt'
+    		'docurl' : 'http://127.0.0.1:8001/data/def.txt'
     	},
     	{
     		'docid' : '3',
     		'docname' : 'ghi.txt',
     		'dochighlight' : 'This is a sample highlight for ghi.txt with document id equals 3.',
-    		'docurl' : 'http://192.168.112.216:8001/data/ghi.txt'
+    		'docurl' : 'http://127.0.0.1:8001/data/ghi.txt'
     	},
     	{
     		'docid' : '4',
     		'docname' : 'jkl.txt',
     		'dochighlight' : 'This is a sample highlight for jkl.txt with document id equals 4.',
-    		'docurl' : 'http://192.168.112.216:8001/data/jkl.txt'
+    		'docurl' : 'http://127.0.0.1:8001/data/jkl.txt'
     	},
     	{
     		'docid' : '5',
     		'docname' : 'abcdef.txt',
     		'dochighlight' : 'This is a sample highlight for abcdef.txt with document id equals 5.',
-    		'docurl' : 'http://192.168.112.216:8001/data/abcdef.txt'
+    		'docurl' : 'http://127.0.0.1:8001/data/abcdef.txt'
     	}
     ];
 
